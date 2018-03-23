@@ -17,21 +17,25 @@
     </header>
     <section>
         <form action="/novoCurso" method="post">
-            Descrição:
+            Código:
             <br />
-            <input type="text" name="evento[codigo]" placeholder="Código">
-            <br> Data:
+            <input type="text" name="curso[codigo]" placeholder="Código">
+            <br> Descrição:
             <br />
-            <input type="text" name="evento[descricao]" placeholder="Descrição">
-            <br> Responsável:
+            <input type="text" name="curso[descricao]" placeholder="Descrição">
+            <br> CH:
             <br />
-            <input type="text" name="evento[responsavel]" placeholder="Responsável">
+            <input type="number" name="curso[ch]" placeholder="Carga horária">
+            <br>
+            Categoria:
+            <br />
+            <input type="text" name="curso[categoria]" placeholder="Categoria">
             <br>
             <button type="submit">Enviar</button>
         </form>
     </section>
     <footer>
-        <small>Sistema de Cadastro de Eventos e Convidados</small>
+        <small>Sistema de Cadastro de Cursos</small>
     </footer>
 </body>
 
